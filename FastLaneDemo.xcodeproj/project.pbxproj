@@ -76,7 +76,6 @@
 				280DF62F219EAE5B00CC8DC5 /* Sources */,
 				280DF630219EAE5B00CC8DC5 /* Frameworks */,
 				280DF631219EAE5B00CC8DC5 /* Resources */,
-				28ED5E5721A3F63100DE91FC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,26 +131,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		28ED5E5721A3F63100DE91FC /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/Volumes/D Drive/Pradhyuman data/Documents/Pradhyuman/Demo/IOS Basics/FastLaneDemo/Script.shpath\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		280DF62F219EAE5B00CC8DC5 /* Sources */ = {
