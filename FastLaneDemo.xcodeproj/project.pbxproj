@@ -12,6 +12,7 @@
 		280DF63C219EAE5B00CC8DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280DF63A219EAE5B00CC8DC5 /* Main.storyboard */; };
 		280DF63E219EAE6200CC8DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280DF63D219EAE6200CC8DC5 /* Assets.xcassets */; };
 		280DF641219EAE6200CC8DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 280DF63F219EAE6200CC8DC5 /* LaunchScreen.storyboard */; };
+		28C79EE221A40EAD00F707F7 /* exportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28C79EE121A40EAD00F707F7 /* exportOptions.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		280DF63D219EAE6200CC8DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		280DF640219EAE6200CC8DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		280DF642219EAE6200CC8DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C79EE121A40EAD00F707F7 /* exportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exportOptions.plist; sourceTree = "<group>"; };
 		28ED5E5621A3F60B00DE91FC /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,6 +41,7 @@
 		280DF62A219EAE5B00CC8DC5 = {
 			isa = PBXGroup;
 			children = (
+				28C79EE121A40EAD00F707F7 /* exportOptions.plist */,
 				28ED5E5621A3F60B00DE91FC /* Script.sh */,
 				280DF635219EAE5B00CC8DC5 /* FastLaneDemo */,
 				280DF634219EAE5B00CC8DC5 /* Products */,
@@ -127,6 +130,7 @@
 				280DF641219EAE6200CC8DC5 /* LaunchScreen.storyboard in Resources */,
 				280DF63E219EAE6200CC8DC5 /* Assets.xcassets in Resources */,
 				280DF63C219EAE5B00CC8DC5 /* Main.storyboard in Resources */,
+				28C79EE221A40EAD00F707F7 /* exportOptions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
