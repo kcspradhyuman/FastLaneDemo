@@ -22,6 +22,7 @@
 		280DF63D219EAE6200CC8DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		280DF640219EAE6200CC8DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		280DF642219EAE6200CC8DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28ED5E5621A3F60B00DE91FC /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		280DF62A219EAE5B00CC8DC5 = {
 			isa = PBXGroup;
 			children = (
+				28ED5E5621A3F60B00DE91FC /* Script.sh */,
 				280DF635219EAE5B00CC8DC5 /* FastLaneDemo */,
 				280DF634219EAE5B00CC8DC5 /* Products */,
 			);
@@ -74,6 +76,7 @@
 				280DF62F219EAE5B00CC8DC5 /* Sources */,
 				280DF630219EAE5B00CC8DC5 /* Frameworks */,
 				280DF631219EAE5B00CC8DC5 /* Resources */,
+				28ED5E5721A3F63100DE91FC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -129,6 +132,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28ED5E5721A3F63100DE91FC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/Volumes/D Drive/Pradhyuman data/Documents/Pradhyuman/Demo/IOS Basics/FastLaneDemo/Script.shpath\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		280DF62F219EAE5B00CC8DC5 /* Sources */ = {
@@ -295,7 +318,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CICDDemo-appstore";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -316,7 +340,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "CICDDemo-appstore";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
