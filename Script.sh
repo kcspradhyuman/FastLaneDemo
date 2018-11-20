@@ -7,3 +7,4 @@
 #  Copyright © 2018 pradhyuman. All rights reserved.
 
 
+bundle exec fastlane beta
